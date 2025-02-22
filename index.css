@@ -90,6 +90,10 @@ header a:hover{
         background-position: center center;
 }
 
+#hero button{
+    font-size: 1.75em;
+}
+
 #somos-DentalBench{
 
 }
@@ -151,4 +155,49 @@ header a:hover{
         rgba(0,0,0,0.5)
         )
     ,url("/media/laboratorio.jpg");
+}
+
+#caracteristicas .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#caracteristicas li{
+    margin: 15px 0px;
+    font-weight: bold;
+}
+
+#pedido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d262f;
+    color: white;
+    height: 80vh;
+}
+
+#pedido h2{
+    font-size: 9vw;
+}
+
+#pedido button{
+    font-size: 5vw;
+}
+
+footer{
+    background-color: rgb(230,230,230);
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100,100);
+}
+
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
