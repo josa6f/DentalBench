@@ -201,3 +201,57 @@ footer .container{
     justify-content: center;
     align-items: flex-end;
 }
+
+@media (min-width:720px){
+    
+    header{
+        position: fixed;
+        width: 100%;
+        background-color: white;
+    }
+    
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #hero h1{
+        font-size: 3.5em;
+    }
+
+    #somos-DentalBench .container{
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    #somos-DentalBench .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #somosDentalBench h2{
+        margin-top: 0px;
+    }
+
+    #somos-DentalBench .img-container{
+        background-image: url(/media/productosg.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+
+
+}
